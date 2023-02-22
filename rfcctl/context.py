@@ -13,7 +13,7 @@ def create_parser(parser: argparse.ArgumentParser):
 
 def __create_context_add_parser(parser: argparse.ArgumentParser):
     parser.set_defaults(handler=__handle_context_add)
-    parser.add_argument('directory', '-d', help='Context directory')
+    parser.add_argument('directory', help='Context directory')
     parser.add_argument('--name', '-n', help='Context name')
     parser.add_argument('--user', '-u', help='User name for context')
     parser.add_argument('--switch', '-s', action='store_true', help='Switch to created context')

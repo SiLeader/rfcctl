@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "rfcctl"
-version = "0.1.0"
+version = "0.1.1"
 description = "RFC like documents management tool"
 authors = ["SiLeader <sileader.dev@gmail.com>"]
 readme = "README.md"
